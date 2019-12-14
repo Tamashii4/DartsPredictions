@@ -6,4 +6,4 @@ deployment:
     - /bin/cp results.html $DEPLOYPATH
     - /bin/cp style/style.css $DEPLOYPATH
     - /bin/cp images/Darts.png
-    - /bin/co images/fav.png
+    - /bin/cp images/fav.png
