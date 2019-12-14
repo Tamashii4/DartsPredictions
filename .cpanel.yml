@@ -4,6 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/paulbo1q/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp results.html $DEPLOYPATH
-    - /bin/cp -R style/style.css $DEPLOYPATH
+    - /bin/cp style/style.css $DEPLOYPATH/style
     - /bin/cp images/Darts.png
     - /bin/cp images/fav.png
