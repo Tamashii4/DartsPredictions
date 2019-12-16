@@ -52,12 +52,12 @@ table {
 
   /* NAV classes */
 
-  nav {
+  .nav {
     overflow: hidden;
     background-color: #333;
   }
   
-  nav a {
+  .nav a {
     float: left;
     color: gold;
     text-align: center;
@@ -66,12 +66,12 @@ table {
     font-size: 17px;
   }
   
-  nav a:hover {
+  .nav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  nav a.active {
+  .nav a.active {
     background-color: gold;
     color: black;
   } 
