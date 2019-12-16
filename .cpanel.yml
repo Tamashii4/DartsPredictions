@@ -4,5 +4,7 @@ deployment:
     - export DEPLOYPATH=/home/paulbo1q/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp results.html $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp -R style $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
