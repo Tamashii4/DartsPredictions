@@ -6,6 +6,6 @@ deployment:
     - /bin/cp results.html $DEPLOYPATH
     - /bin/cp images/Darts.png
     - /bin/cp images/fav.png
+  tasks:
     - export DEPLOYPATH=/home/paulbo1q/public_html/style/
     - /bin/cp style/style.css $DEPLOYPATH
-    
