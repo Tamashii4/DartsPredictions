@@ -8,3 +8,4 @@ deployment:
     - /bin/cp images/fav.png
     - export DEPLOYPATH=/home/paulbo1q/public_html/style/
     - /bin/cp style/style.css $DEPLOYPATH
+    
